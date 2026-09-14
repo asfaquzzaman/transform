@@ -1,0 +1,16 @@
+.main{
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+    /*transform: translateX(50px) translateY(50px);*/
+    /*transform: translate(50px, 50px);*/
+    /*transform: scale(90%);*/
+    /*transform: skewX(10deg) skewY(10deg);*/
+    /*transform: skew(10deg, 10deg);*/
+    transform: rotateX(10deg) rotateY(10deg) rotateZ(10deg);
+    transition: 0.8s;
+}
+.main:hover{
+    transform: translateX(50px) translateY(40px);
+    background-color: black ;
+}
